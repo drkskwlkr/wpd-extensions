@@ -26,8 +26,8 @@
             .psw__lbl { font-size: 10px; text-transform: uppercase; letter-spacing: .05em; opacity: .65; }
             .psw__footer { display: flex; gap: 6px; flex-wrap: wrap; }
             .psw__btn { font-size: 11px; padding: 4px 9px; border-radius: 4px;
-                border: 1px solid rgba(0,0,0,.15); text-decoration: none; color: inherit;
-                background: rgba(255,255,255,.55); white-space: nowrap; }
+                border: 1px solid rgba(0,0,0,.15); text-align: center; text-decoration: none;
+								color: inherit; background: rgba(255,255,255,.55); white-space: nowrap;	width: 100%; }
             .psw__btn:hover { background: rgba(255,255,255,.85); text-decoration: none; }
             .psw__btn--warn { border-color: rgba(220,53,69,.4); background: rgba(220,53,69,.08); color: #a71d2a; }
             .psw__btn--warn:hover { background: rgba(220,53,69,.16); }
@@ -36,8 +36,8 @@
     };
 
     const def = {
-        id:          'plugin-stats',
-        label:       'Plugin Stats',
+        id:          'wp-plugin-stats',
+        label:       'WP Plugin Stats',
         description: 'Installed, active, and pending-update plugin counts.',
         icon:        'dashicons-admin-plugins',
 
